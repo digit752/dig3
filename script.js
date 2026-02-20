@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
     const path = window.location.pathname;
     const page = path.split("/").pop();
     const currentPage = parseInt(page.replace(".html", "")) || 1;
-    const totalPages = 31;
+    const totalPages = 2;
 
     // Membuat container utama navigasi atas
     const topNav = document.createElement("div");
